@@ -1,0 +1,427 @@
+[2024-10-14 19:10:05] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
+[2024-10-14 19:10:05] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, generate_404, create_zip_archive, wrapup
+[2024-10-14 19:10:05] [class-ss-archive-creation-job.php:102] Pushing first task to queue: setup
+[2024-10-14 19:10:06] [class-ss-archive-creation-job.php:136] Current task: setup
+[2024-10-14 19:10:06] [class-ss-archive-creation-job.php:153] Performing task: setup
+[2024-10-14 19:10:06] [class-ss-task.php:44] Status message: [setup] Setting up
+[2024-10-14 19:10:06] [class-ss-setup-task.php:33] Creating archive directory: C:\Users\ayans\Local Sites\github\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1728933005\
+[2024-10-14 19:10:06] [class-ss-setup-task.php:72] Adding origin URL to queue: http://github.local/
+[2024-10-14 19:10:06] [class-ss-archive-creation-job.php:175] We've found our next task: fetch_urls
+[2024-10-14 19:10:06] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-14 19:10:06] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-14 19:10:06] [class-ss-fetch-urls-task.php:69] Total pages: 1; Pages remaining: 1
+[2024-10-14 19:10:06] [class-ss-fetch-urls-task.php:72] URL: http://github.local/
+[2024-10-14 19:10:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 1
+[2024-10-14 19:10:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-14 19:10:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/670d6c8ea9796-qHNA3M.tmp
+[2024-10-14 19:10:06] [class-ss-page-handler.php:38] URL Prepared:http://github.local/?simply_static_page=32
+[2024-10-14 19:10:06] [class-ss-url-fetcher.php:251] Fetching URL: http://github.local/?simply_static_page=32
+[2024-10-14 19:10:13] [class-ss-url-fetcher.php:103] Filesize: 83956 bytes
+[2024-10-14 19:10:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-14 19:10:13] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2024-10-14 19:10:13] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/670d6c8ea9796-qHNA3M.tmp to C:\Users\ayans\Local Sites\github\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1728933005/index.html
+[2024-10-14 19:10:13] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-14 19:10:16] [class-ss-fetch-urls-task.php:159] Adding 20 URLs to the queue
+[2024-10-14 19:10:16] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-14 19:10:16] [class-ss-page.php:119] Checking Content Identical:60aecf120e8c82f6a969d89775ca406df48829fc===. Value: FALSE
+[2024-10-14 19:10:16] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 1 pages/files
+[2024-10-14 19:10:17] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-10-14 19:10:17] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-14 19:10:17] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-14 19:10:17] [class-ss-fetch-urls-task.php:69] Total pages: 20; Pages remaining: 19
+[2024-10-14 19:10:17] [class-ss-fetch-urls-task.php:72] URL: http://github.local/sample-page/
+[2024-10-14 19:10:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 20
+[2024-10-14 19:10:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-14 19:10:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/670d6c990738d-OVvR0q.tmp
+[2024-10-14 19:10:17] [class-ss-page-handler.php:38] URL Prepared:http://github.local/sample-page/?simply_static_page=33
+[2024-10-14 19:10:17] [class-ss-url-fetcher.php:251] Fetching URL: http://github.local/sample-page/?simply_static_page=33
+[2024-10-14 19:10:17] [class-ss-url-fetcher.php:103] Filesize: 59623 bytes
+[2024-10-14 19:10:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-14 19:10:17] [class-ss-url-fetcher.php:233] New filename for static page: /sample-page/index.html
+[2024-10-14 19:10:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/670d6c990738d-OVvR0q.tmp to C:\Users\ayans\Local Sites\github\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1728933005/sample-page/index.html
+[2024-10-14 19:10:17] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-14 19:10:19] [class-ss-fetch-urls-task.php:159] Adding 17 URLs to the queue
+[2024-10-14 19:10:19] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-14 19:10:20] [class-ss-page.php:119] Checking Content Identical:413188b270f671aa240d776dbd454dd373f602c2===. Value: FALSE
+[2024-10-14 19:10:20] [class-ss-fetch-urls-task.php:72] URL: http://github.local/hello-world/
+[2024-10-14 19:10:20] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 20
+[2024-10-14 19:10:20] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-14 19:10:20] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/670d6c9ccb716-aoCweG.tmp
+[2024-10-14 19:10:20] [class-ss-page-handler.php:38] URL Prepared:http://github.local/hello-world/?simply_static_page=34
+[2024-10-14 19:10:20] [class-ss-url-fetcher.php:251] Fetching URL: http://github.local/hello-world/?simply_static_page=34
+[2024-10-14 19:10:22] [class-ss-url-fetcher.php:103] Filesize: 76015 bytes
+[2024-10-14 19:10:22] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-14 19:10:22] [class-ss-url-fetcher.php:233] New filename for static page: /hello-world/index.html
+[2024-10-14 19:10:22] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/670d6c9ccb716-aoCweG.tmp to C:\Users\ayans\Local Sites\github\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1728933005/hello-world/index.html
+[2024-10-14 19:10:22] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-14 19:10:24] [class-ss-fetch-urls-task.php:159] Adding 21 URLs to the queue
+[2024-10-14 19:10:24] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-14 19:10:25] [class-ss-page.php:119] Checking Content Identical:c7805bfbd743ce02acecbb5b881c673fa3f7f46f===. Value: FALSE
+[2024-10-14 19:10:25] [class-ss-fetch-urls-task.php:72] URL: http://github.local/author/github/
+[2024-10-14 19:10:25] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 20
+[2024-10-14 19:10:25] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-14 19:10:25] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/670d6ca16ba09-9cFlhi.tmp
+[2024-10-14 19:10:25] [class-ss-page-handler.php:38] URL Prepared:http://github.local/author/github/?simply_static_page=35
+[2024-10-14 19:10:25] [class-ss-url-fetcher.php:251] Fetching URL: http://github.local/author/github/?simply_static_page=35
+[2024-10-14 19:10:55] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-10-14 19:10:55] [class-ss-url-fetcher.php:106] We encountered an error when fetching: cURL error 28: Operation timed out after 30004 milliseconds with 0 bytes received
+[2024-10-14 19:10:55] [class-ss-url-fetcher.php:107] object(WP_Error)#1062 (3) {  ["errors"]=>  array(1) {    ["http_request_failed"]=>    array(1) {      [0]=>      string(81) "cURL error 28: Operation timed out after 30004 milliseconds with 0 bytes received"    }  }  ["error_data"]=>  array(0) {  }  ["additional_data":protected]=>  array(0) {  }}
+[2024-10-14 19:10:55] [class-ss-fetch-urls-task.php:72] URL: http://github.local/category/uncategorized/
+[2024-10-14 19:10:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 20
+[2024-10-14 19:10:55] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-14 19:10:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/670d6cbf76cc9-Q2hzD7.tmp
+[2024-10-14 19:10:55] [class-ss-page-handler.php:38] URL Prepared:http://github.local/category/uncategorized/?simply_static_page=36
+[2024-10-14 19:10:55] [class-ss-url-fetcher.php:251] Fetching URL: http://github.local/category/uncategorized/?simply_static_page=36
+[2024-10-14 19:10:56] [class-ss-url-fetcher.php:103] Filesize: 63520 bytes
+[2024-10-14 19:10:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-14 19:10:56] [class-ss-url-fetcher.php:233] New filename for static page: /category/uncategorized/index.html
+[2024-10-14 19:10:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/670d6cbf76cc9-Q2hzD7.tmp to C:\Users\ayans\Local Sites\github\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1728933005/category/uncategorized/index.html
+[2024-10-14 19:10:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-14 19:10:57] [class-ss-fetch-urls-task.php:159] Adding 18 URLs to the queue
+[2024-10-14 19:10:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-14 19:10:58] [class-ss-page.php:119] Checking Content Identical:6e8a6dd04555952d447a357ebb2e5b57aabb3bde===. Value: FALSE
+[2024-10-14 19:10:58] [class-ss-fetch-urls-task.php:72] URL: http://github.local/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp
+[2024-10-14 19:10:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 20
+[2024-10-14 19:10:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-14 19:10:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/670d6cc2a745c-yl94BF.tmp
+[2024-10-14 19:10:58] [class-ss-page-handler.php:38] URL Prepared:http://github.local/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp?simply_static_page=37
+[2024-10-14 19:10:58] [class-ss-url-fetcher.php:251] Fetching URL: http://github.local/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp?simply_static_page=37
+[2024-10-14 19:10:58] [class-ss-url-fetcher.php:103] Filesize: 199724 bytes
+[2024-10-14 19:10:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-10-14 19:10:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp
+[2024-10-14 19:10:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/670d6cc2a745c-yl94BF.tmp to C:\Users\ayans\Local Sites\github\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1728933005/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp
+[2024-10-14 19:10:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-14 19:10:58] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-14 19:10:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-14 19:10:58] [class-ss-page.php:119] Checking Content Identical:6804bf960deaa7ce32a32d8908cff9df0b157772===. Value: FALSE
+[2024-10-14 19:10:58] [class-ss-fetch-urls-task.php:72] URL: http://github.local/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp
+[2024-10-14 19:10:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 20
+[2024-10-14 19:10:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-14 19:10:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/670d6cc2b8728-v8HO5m.tmp
+[2024-10-14 19:10:58] [class-ss-page-handler.php:38] URL Prepared:http://github.local/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp?simply_static_page=38
+[2024-10-14 19:10:58] [class-ss-url-fetcher.php:251] Fetching URL: http://github.local/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp?simply_static_page=38
+[2024-10-14 19:10:58] [class-ss-url-fetcher.php:103] Filesize: 66482 bytes
+[2024-10-14 19:10:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-10-14 19:10:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp
+[2024-10-14 19:10:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/670d6cc2b8728-v8HO5m.tmp to C:\Users\ayans\Local Sites\github\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1728933005/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp
+[2024-10-14 19:10:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-14 19:10:58] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-14 19:10:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-14 19:10:58] [class-ss-page.php:119] Checking Content Identical:5d2c6cd3d8d2c412281237628073e451257716e4===. Value: FALSE
+[2024-10-14 19:10:58] [class-ss-fetch-urls-task.php:72] URL: http://github.local/wp-content/themes/twentytwentyfour/assets/images/windows.webp
+[2024-10-14 19:10:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 20
+[2024-10-14 19:10:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-14 19:10:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/670d6cc2c6929-SKTvdq.tmp
+[2024-10-14 19:10:58] [class-ss-page-handler.php:38] URL Prepared:http://github.local/wp-content/themes/twentytwentyfour/assets/images/windows.webp?simply_static_page=39
+[2024-10-14 19:10:58] [class-ss-url-fetcher.php:251] Fetching URL: http://github.local/wp-content/themes/twentytwentyfour/assets/images/windows.webp?simply_static_page=39
+[2024-10-14 19:10:58] [class-ss-url-fetcher.php:103] Filesize: 126244 bytes
+[2024-10-14 19:10:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-10-14 19:10:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/images/windows.webp
+[2024-10-14 19:10:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/670d6cc2c6929-SKTvdq.tmp to C:\Users\ayans\Local Sites\github\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1728933005/wp-content/themes/twentytwentyfour/assets/images/windows.webp
+[2024-10-14 19:10:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-14 19:10:58] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-14 19:10:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-14 19:10:58] [class-ss-page.php:119] Checking Content Identical:18a3284f7b5ec684211dc355fe2ae56b30639a9e===. Value: FALSE
+[2024-10-14 19:10:58] [class-ss-fetch-urls-task.php:72] URL: http://github.local/wp-includes/blocks/navigation/view.min.js
+[2024-10-14 19:10:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 20
+[2024-10-14 19:10:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-14 19:10:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/670d6cc2d53fe-gR9jm5.tmp
+[2024-10-14 19:10:58] [class-ss-page-handler.php:38] URL Prepared:http://github.local/wp-includes/blocks/navigation/view.min.js?simply_static_page=40
+[2024-10-14 19:10:58] [class-ss-url-fetcher.php:251] Fetching URL: http://github.local/wp-includes/blocks/navigation/view.min.js?simply_static_page=40
+[2024-10-14 19:10:58] [class-ss-url-fetcher.php:103] Filesize: 3300 bytes
+[2024-10-14 19:10:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2024-10-14 19:10:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/view.min.js
+[2024-10-14 19:10:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/670d6cc2d53fe-gR9jm5.tmp to C:\Users\ayans\Local Sites\github\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1728933005/wp-includes/blocks/navigation/view.min.js
+[2024-10-14 19:10:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-14 19:10:58] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-14 19:10:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-14 19:10:58] [class-ss-page.php:119] Checking Content Identical:b27ba805d3b9118edfd523f01fd6e84229d52ffd===. Value: FALSE
+[2024-10-14 19:10:58] [class-ss-fetch-urls-task.php:72] URL: http://github.local/feed/
+[2024-10-14 19:10:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 20
+[2024-10-14 19:10:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-14 19:10:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/670d6cc2e35eb-TU6nfp.tmp
+[2024-10-14 19:10:58] [class-ss-page-handler.php:38] URL Prepared:http://github.local/feed/?simply_static_page=41
+[2024-10-14 19:10:58] [class-ss-url-fetcher.php:251] Fetching URL: http://github.local/feed/?simply_static_page=41
+[2024-10-14 19:11:28] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-10-14 19:11:28] [class-ss-url-fetcher.php:106] We encountered an error when fetching: cURL error 28: Operation timed out after 30004 milliseconds with 0 bytes received
+[2024-10-14 19:11:28] [class-ss-url-fetcher.php:107] object(WP_Error)#1003 (3) {  ["errors"]=>  array(1) {    ["http_request_failed"]=>    array(1) {      [0]=>      string(81) "cURL error 28: Operation timed out after 30004 milliseconds with 0 bytes received"    }  }  ["error_data"]=>  array(0) {  }  ["additional_data":protected]=>  array(0) {  }}
+[2024-10-14 19:11:28] [class-ss-fetch-urls-task.php:72] URL: http://github.local/comments/feed/
+[2024-10-14 19:11:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 20
+[2024-10-14 19:11:28] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-14 19:11:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/670d6ce0eed26-s3poMu.tmp
+[2024-10-14 19:11:28] [class-ss-page-handler.php:38] URL Prepared:http://github.local/comments/feed/?simply_static_page=42
+[2024-10-14 19:11:28] [class-ss-url-fetcher.php:251] Fetching URL: http://github.local/comments/feed/?simply_static_page=42
+[2024-10-14 19:11:29] [class-ss-url-fetcher.php:103] Filesize: 1627 bytes
+[2024-10-14 19:11:29] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-10-14 19:11:29] [class-ss-url-fetcher.php:233] New filename for static page: /comments/feed/index.xml
+[2024-10-14 19:11:29] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/670d6ce0eed26-s3poMu.tmp to C:\Users\ayans\Local Sites\github\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1728933005/comments/feed/index.xml
+[2024-10-14 19:11:29] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-14 19:11:29] [class-ss-fetch-urls-task.php:159] Adding 3 URLs to the queue
+[2024-10-14 19:11:29] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-14 19:11:29] [class-ss-page.php:119] Checking Content Identical:4f6fde39882663e745a70f22d52f57c7bd113e5a===. Value: FALSE
+[2024-10-14 19:11:29] [class-ss-fetch-urls-task.php:72] URL: http://github.local/wp-includes/blocks/navigation/style.min.css
+[2024-10-14 19:11:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 20
+[2024-10-14 19:11:29] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-14 19:11:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/670d6ce1c6a73-VTDpa7.tmp
+[2024-10-14 19:11:29] [class-ss-page-handler.php:38] URL Prepared:http://github.local/wp-includes/blocks/navigation/style.min.css?simply_static_page=43
+[2024-10-14 19:11:29] [class-ss-url-fetcher.php:251] Fetching URL: http://github.local/wp-includes/blocks/navigation/style.min.css?simply_static_page=43
+[2024-10-14 19:11:29] [class-ss-url-fetcher.php:103] Filesize: 16384 bytes
+[2024-10-14 19:11:29] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-10-14 19:11:29] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/style.min.css
+[2024-10-14 19:11:29] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/670d6ce1c6a73-VTDpa7.tmp to C:\Users\ayans\Local Sites\github\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1728933005/wp-includes/blocks/navigation/style.min.css
+[2024-10-14 19:11:29] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-14 19:11:29] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-14 19:11:29] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-14 19:11:29] [class-ss-page.php:119] Checking Content Identical:da66b61dcc5204277eb7846b9dce55b2e7d58a42===. Value: FALSE
+[2024-10-14 19:11:29] [class-ss-fetch-urls-task.php:72] URL: http://github.local/wp-includes/blocks/image/style.min.css
+[2024-10-14 19:11:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 20
+[2024-10-14 19:11:29] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-14 19:11:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/670d6ce1db892-mIoLEM.tmp
+[2024-10-14 19:11:29] [class-ss-page-handler.php:38] URL Prepared:http://github.local/wp-includes/blocks/image/style.min.css?simply_static_page=44
+[2024-10-14 19:11:29] [class-ss-url-fetcher.php:251] Fetching URL: http://github.local/wp-includes/blocks/image/style.min.css?simply_static_page=44
+[2024-10-14 19:11:29] [class-ss-url-fetcher.php:103] Filesize: 6358 bytes
+[2024-10-14 19:11:29] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-10-14 19:11:29] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/image/style.min.css
+[2024-10-14 19:11:29] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/670d6ce1db892-mIoLEM.tmp to C:\Users\ayans\Local Sites\github\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1728933005/wp-includes/blocks/image/style.min.css
+[2024-10-14 19:11:29] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-14 19:11:29] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-14 19:11:29] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-14 19:11:29] [class-ss-page.php:119] Checking Content Identical:54a1fef5278908a5bbd901dea250139c6d992b6f===. Value: FALSE
+[2024-10-14 19:11:29] [class-ss-fetch-urls-task.php:72] URL: http://github.local/wp-json/
+[2024-10-14 19:11:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 20
+[2024-10-14 19:11:29] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-14 19:11:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/670d6ce1eac52-dYQi3X.tmp
+[2024-10-14 19:11:29] [class-ss-page-handler.php:38] URL Prepared:http://github.local/wp-json/?simply_static_page=45
+[2024-10-14 19:11:29] [class-ss-url-fetcher.php:251] Fetching URL: http://github.local/wp-json/?simply_static_page=45
+[2024-10-14 19:11:59] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-10-14 19:11:59] [class-ss-url-fetcher.php:106] We encountered an error when fetching: cURL error 28: Operation timed out after 30002 milliseconds with 0 bytes received
+[2024-10-14 19:11:59] [class-ss-url-fetcher.php:107] object(WP_Error)#1025 (3) {  ["errors"]=>  array(1) {    ["http_request_failed"]=>    array(1) {      [0]=>      string(81) "cURL error 28: Operation timed out after 30002 milliseconds with 0 bytes received"    }  }  ["error_data"]=>  array(0) {  }  ["additional_data":protected]=>  array(0) {  }}
+[2024-10-14 19:11:59] [class-ss-fetch-urls-task.php:72] URL: http://github.local/xmlrpc.php
+[2024-10-14 19:11:59] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 20
+[2024-10-14 19:12:00] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://github.local/xmlrpc.php
+[2024-10-14 19:12:00] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-10-14 19:12:00] [class-ss-fetch-urls-task.php:72] URL: http://github.local/wp-includes/js/dist/interactivity.min.js
+[2024-10-14 19:12:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 20
+[2024-10-14 19:12:00] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-14 19:12:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/670d6d0008660-H4EIks.tmp
+[2024-10-14 19:12:00] [class-ss-page-handler.php:38] URL Prepared:http://github.local/wp-includes/js/dist/interactivity.min.js?simply_static_page=47
+[2024-10-14 19:12:00] [class-ss-url-fetcher.php:251] Fetching URL: http://github.local/wp-includes/js/dist/interactivity.min.js?simply_static_page=47
+[2024-10-14 19:12:00] [class-ss-url-fetcher.php:103] Filesize: 36686 bytes
+[2024-10-14 19:12:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2024-10-14 19:12:00] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/interactivity.min.js
+[2024-10-14 19:12:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/670d6d0008660-H4EIks.tmp to C:\Users\ayans\Local Sites\github\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1728933005/wp-includes/js/dist/interactivity.min.js
+[2024-10-14 19:12:00] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-14 19:12:00] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-14 19:12:00] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-14 19:12:00] [class-ss-page.php:119] Checking Content Identical:39f2fd1115fdb171ea318c2ca240c7fe53df79b4===. Value: FALSE
+[2024-10-14 19:12:00] [class-ss-fetch-urls-task.php:72] URL: http://github.local/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
+[2024-10-14 19:12:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 20
+[2024-10-14 19:12:00] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-14 19:12:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/670d6d002e5c7-V8gPjz.tmp
+[2024-10-14 19:12:00] [class-ss-page-handler.php:38] URL Prepared:http://github.local/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2?simply_static_page=48
+[2024-10-14 19:12:00] [class-ss-url-fetcher.php:251] Fetching URL: http://github.local/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2?simply_static_page=48
+[2024-10-14 19:12:00] [class-ss-url-fetcher.php:103] Filesize: 326628 bytes
+[2024-10-14 19:12:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-woff2
+[2024-10-14 19:12:00] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
+[2024-10-14 19:12:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/670d6d002e5c7-V8gPjz.tmp to C:\Users\ayans\Local Sites\github\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1728933005/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
+[2024-10-14 19:12:00] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-14 19:12:00] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-14 19:12:00] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-14 19:12:00] [class-ss-page.php:119] Checking Content Identical:40546dbfd5c467c3257d8f3a4ad8af0d9995aeb6===. Value: FALSE
+[2024-10-14 19:12:00] [class-ss-fetch-urls-task.php:72] URL: http://github.local/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
+[2024-10-14 19:12:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 20
+[2024-10-14 19:12:00] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-14 19:12:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/670d6d0044185-6UvWQV.tmp
+[2024-10-14 19:12:00] [class-ss-page-handler.php:38] URL Prepared:http://github.local/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2?simply_static_page=49
+[2024-10-14 19:12:00] [class-ss-url-fetcher.php:251] Fetching URL: http://github.local/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2?simply_static_page=49
+[2024-10-14 19:12:00] [class-ss-url-fetcher.php:103] Filesize: 146060 bytes
+[2024-10-14 19:12:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-woff2
+[2024-10-14 19:12:00] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
+[2024-10-14 19:12:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/670d6d0044185-6UvWQV.tmp to C:\Users\ayans\Local Sites\github\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1728933005/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
+[2024-10-14 19:12:00] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-14 19:12:00] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-14 19:12:00] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-14 19:12:00] [class-ss-page.php:119] Checking Content Identical:b86a6f0bf3fb4777160165dfe37ca4e99b90216e===. Value: FALSE
+[2024-10-14 19:12:00] [class-ss-fetch-urls-task.php:72] URL: http://github.local/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
+[2024-10-14 19:12:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 20
+[2024-10-14 19:12:00] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-14 19:12:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/670d6d0056518-Dg8WGk.tmp
+[2024-10-14 19:12:00] [class-ss-page-handler.php:38] URL Prepared:http://github.local/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2?simply_static_page=50
+[2024-10-14 19:12:00] [class-ss-url-fetcher.php:251] Fetching URL: http://github.local/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2?simply_static_page=50
+[2024-10-14 19:12:00] [class-ss-url-fetcher.php:103] Filesize: 105184 bytes
+[2024-10-14 19:12:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-woff2
+[2024-10-14 19:12:00] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
+[2024-10-14 19:12:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/670d6d0056518-Dg8WGk.tmp to C:\Users\ayans\Local Sites\github\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1728933005/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
+[2024-10-14 19:12:00] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-14 19:12:00] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-14 19:12:00] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-14 19:12:00] [class-ss-page.php:119] Checking Content Identical:0fdff68c4027cf421d605798a1de46a061d160a3===. Value: FALSE
+[2024-10-14 19:12:00] [class-ss-fetch-urls-task.php:72] URL: http://github.local/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
+[2024-10-14 19:12:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 20
+[2024-10-14 19:12:00] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-14 19:12:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/670d6d0067322-868PET.tmp
+[2024-10-14 19:12:00] [class-ss-page-handler.php:38] URL Prepared:http://github.local/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2?simply_static_page=51
+[2024-10-14 19:12:00] [class-ss-url-fetcher.php:251] Fetching URL: http://github.local/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2?simply_static_page=51
+[2024-10-14 19:12:00] [class-ss-url-fetcher.php:103] Filesize: 132564 bytes
+[2024-10-14 19:12:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-woff2
+[2024-10-14 19:12:00] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
+[2024-10-14 19:12:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/670d6d0067322-868PET.tmp to C:\Users\ayans\Local Sites\github\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1728933005/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
+[2024-10-14 19:12:00] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-14 19:12:00] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-14 19:12:00] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-14 19:12:00] [class-ss-page.php:119] Checking Content Identical:dc56f8308f3385b427ce85c20b9afc471be17c60===. Value: FALSE
+[2024-10-14 19:12:00] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 1 of 20 pages/files
+[2024-10-14 19:12:00] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-10-14 19:12:02] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-14 19:12:02] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-14 19:12:02] [class-ss-fetch-urls-task.php:69] Total pages: 30; Pages remaining: 10
+[2024-10-14 19:12:02] [class-ss-fetch-urls-task.php:72] URL: http://github.local/wp-admin/
+[2024-10-14 19:12:02] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 30
+[2024-10-14 19:12:02] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-14 19:12:02] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/670d6d023c9a4-v98pMi.tmp
+[2024-10-14 19:12:02] [class-ss-page-handler.php:38] URL Prepared:http://github.local/wp-admin/?simply_static_page=52
+[2024-10-14 19:12:02] [class-ss-url-fetcher.php:251] Fetching URL: http://github.local/wp-admin/?simply_static_page=52
+[2024-10-14 19:12:32] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-10-14 19:12:32] [class-ss-url-fetcher.php:106] We encountered an error when fetching: cURL error 28: Operation timed out after 30012 milliseconds with 0 bytes received
+[2024-10-14 19:12:32] [class-ss-url-fetcher.php:107] object(WP_Error)#895 (3) {  ["errors"]=>  array(1) {    ["http_request_failed"]=>    array(1) {      [0]=>      string(81) "cURL error 28: Operation timed out after 30012 milliseconds with 0 bytes received"    }  }  ["error_data"]=>  array(0) {  }  ["additional_data":protected]=>  array(0) {  }}
+[2024-10-14 19:12:32] [class-ss-fetch-urls-task.php:72] URL: http://github.local/sample-page/feed/
+[2024-10-14 19:12:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 30
+[2024-10-14 19:12:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-14 19:12:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/670d6d204a462-A1ShBy.tmp
+[2024-10-14 19:12:32] [class-ss-page-handler.php:38] URL Prepared:http://github.local/sample-page/feed/?simply_static_page=53
+[2024-10-14 19:12:32] [class-ss-url-fetcher.php:251] Fetching URL: http://github.local/sample-page/feed/?simply_static_page=53
+[2024-10-14 19:12:32] [class-ss-url-fetcher.php:103] Filesize: 731 bytes
+[2024-10-14 19:12:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-10-14 19:12:32] [class-ss-url-fetcher.php:233] New filename for static page: /sample-page/feed/index.xml
+[2024-10-14 19:12:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/670d6d204a462-A1ShBy.tmp to C:\Users\ayans\Local Sites\github\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1728933005/sample-page/feed/index.xml
+[2024-10-14 19:12:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-14 19:12:32] [class-ss-fetch-urls-task.php:159] Adding 2 URLs to the queue
+[2024-10-14 19:12:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-14 19:12:32] [class-ss-page.php:119] Checking Content Identical:13b4d5e4a13d1060f20220e7fa77e0fe722ed361===. Value: FALSE
+[2024-10-14 19:12:32] [class-ss-fetch-urls-task.php:72] URL: http://github.local/wp-json/wp/v2/pages/2
+[2024-10-14 19:12:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 30
+[2024-10-14 19:12:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-14 19:12:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/670d6d20c4c12-gL5GwA.tmp
+[2024-10-14 19:12:32] [class-ss-page-handler.php:38] URL Prepared:http://github.local/wp-json/wp/v2/pages/2?simply_static_page=54
+[2024-10-14 19:12:32] [class-ss-url-fetcher.php:251] Fetching URL: http://github.local/wp-json/wp/v2/pages/2?simply_static_page=54
+[2024-10-14 19:13:02] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-10-14 19:13:02] [class-ss-url-fetcher.php:106] We encountered an error when fetching: cURL error 28: Operation timed out after 30009 milliseconds with 0 bytes received
+[2024-10-14 19:13:02] [class-ss-url-fetcher.php:107] object(WP_Error)#895 (3) {  ["errors"]=>  array(1) {    ["http_request_failed"]=>    array(1) {      [0]=>      string(81) "cURL error 28: Operation timed out after 30009 milliseconds with 0 bytes received"    }  }  ["error_data"]=>  array(0) {  }  ["additional_data":protected]=>  array(0) {  }}
+[2024-10-14 19:13:02] [class-ss-fetch-urls-task.php:72] URL: http://github.local/wp-json/oembed/1.0/embed
+[2024-10-14 19:13:02] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 30
+[2024-10-14 19:13:02] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-14 19:13:02] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/670d6d3ecd308-RQaVg8.tmp
+[2024-10-14 19:13:02] [class-ss-page-handler.php:38] URL Prepared:http://github.local/wp-json/oembed/1.0/embed?simply_static_page=55
+[2024-10-14 19:13:02] [class-ss-url-fetcher.php:251] Fetching URL: http://github.local/wp-json/oembed/1.0/embed?simply_static_page=55
+[2024-10-14 19:13:03] [class-ss-url-fetcher.php:103] Filesize: 115 bytes
+[2024-10-14 19:13:03] [class-ss-url-fetcher.php:119] http_status_code: 400 | content_type: application/json; charset=UTF-8
+[2024-10-14 19:13:03] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-10-14 19:13:03] [class-ss-fetch-urls-task.php:72] URL: http://github.local/wp-includes/js/comment-reply.min.js
+[2024-10-14 19:13:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 30
+[2024-10-14 19:13:03] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-14 19:13:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/670d6d3f484d7-Pq8Rlm.tmp
+[2024-10-14 19:13:03] [class-ss-page-handler.php:38] URL Prepared:http://github.local/wp-includes/js/comment-reply.min.js?simply_static_page=56
+[2024-10-14 19:13:03] [class-ss-url-fetcher.php:251] Fetching URL: http://github.local/wp-includes/js/comment-reply.min.js?simply_static_page=56
+[2024-10-14 19:13:03] [class-ss-url-fetcher.php:103] Filesize: 2981 bytes
+[2024-10-14 19:13:03] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2024-10-14 19:13:03] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/comment-reply.min.js
+[2024-10-14 19:13:03] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/670d6d3f484d7-Pq8Rlm.tmp to C:\Users\ayans\Local Sites\github\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1728933005/wp-includes/js/comment-reply.min.js
+[2024-10-14 19:13:03] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-14 19:13:03] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-14 19:13:03] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-14 19:13:03] [class-ss-page.php:119] Checking Content Identical:db36a77f6aaa2063bfbec02c2c0e967438c5a245===. Value: FALSE
+[2024-10-14 19:13:03] [class-ss-fetch-urls-task.php:72] URL: http://github.local/hello-world/feed/
+[2024-10-14 19:13:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 30
+[2024-10-14 19:13:03] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-14 19:13:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/670d6d3f52c0d-9iGmIa.tmp
+[2024-10-14 19:13:03] [class-ss-page-handler.php:38] URL Prepared:http://github.local/hello-world/feed/?simply_static_page=57
+[2024-10-14 19:13:03] [class-ss-url-fetcher.php:251] Fetching URL: http://github.local/hello-world/feed/?simply_static_page=57
+[2024-10-14 19:13:33] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-10-14 19:13:33] [class-ss-url-fetcher.php:106] We encountered an error when fetching: cURL error 28: Operation timed out after 30003 milliseconds with 0 bytes received
+[2024-10-14 19:13:33] [class-ss-url-fetcher.php:107] object(WP_Error)#935 (3) {  ["errors"]=>  array(1) {    ["http_request_failed"]=>    array(1) {      [0]=>      string(81) "cURL error 28: Operation timed out after 30003 milliseconds with 0 bytes received"    }  }  ["error_data"]=>  array(0) {  }  ["additional_data":protected]=>  array(0) {  }}
+[2024-10-14 19:13:33] [class-ss-fetch-urls-task.php:72] URL: http://github.local/wp-includes/css/dist/block-library/common.min.css
+[2024-10-14 19:13:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 30
+[2024-10-14 19:13:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-14 19:13:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/670d6d5d5c06b-Gi8TYp.tmp
+[2024-10-14 19:13:33] [class-ss-page-handler.php:38] URL Prepared:http://github.local/wp-includes/css/dist/block-library/common.min.css?simply_static_page=58
+[2024-10-14 19:13:33] [class-ss-url-fetcher.php:251] Fetching URL: http://github.local/wp-includes/css/dist/block-library/common.min.css?simply_static_page=58
+[2024-10-14 19:13:33] [class-ss-url-fetcher.php:103] Filesize: 3472 bytes
+[2024-10-14 19:13:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-10-14 19:13:33] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/dist/block-library/common.min.css
+[2024-10-14 19:13:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/670d6d5d5c06b-Gi8TYp.tmp to C:\Users\ayans\Local Sites\github\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1728933005/wp-includes/css/dist/block-library/common.min.css
+[2024-10-14 19:13:33] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-14 19:13:33] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-14 19:13:33] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-14 19:13:33] [class-ss-page.php:119] Checking Content Identical:bbde28aa1f2f849a80a69d35191a0814c62648ca===. Value: FALSE
+[2024-10-14 19:13:33] [class-ss-fetch-urls-task.php:72] URL: http://github.local/wp-json/wp/v2/posts/1
+[2024-10-14 19:13:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 30
+[2024-10-14 19:13:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-14 19:13:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/670d6d5d6a0c8-V0sSRS.tmp
+[2024-10-14 19:13:33] [class-ss-page-handler.php:38] URL Prepared:http://github.local/wp-json/wp/v2/posts/1?simply_static_page=59
+[2024-10-14 19:13:33] [class-ss-url-fetcher.php:251] Fetching URL: http://github.local/wp-json/wp/v2/posts/1?simply_static_page=59
+[2024-10-14 19:13:33] [class-ss-url-fetcher.php:103] Filesize: 1791 bytes
+[2024-10-14 19:13:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-10-14 19:13:33] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/wp/v2/posts/1\index.html
+[2024-10-14 19:13:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/670d6d5d6a0c8-V0sSRS.tmp to C:\Users\ayans\Local Sites\github\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1728933005/wp-json/wp/v2/posts/1\index.html
+[2024-10-14 19:13:33] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-14 19:13:33] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-14 19:13:33] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-14 19:13:33] [class-ss-page.php:119] Checking Content Identical:8a0ec9da746b3a79b4e7f8ffce7ba4ddc31700e4===. Value: FALSE
+[2024-10-14 19:13:33] [class-ss-fetch-urls-task.php:72] URL: http://github.local/category/uncategorized/feed/
+[2024-10-14 19:13:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 30
+[2024-10-14 19:13:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-14 19:13:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/670d6d5ddf8a0-WudMl1.tmp
+[2024-10-14 19:13:33] [class-ss-page-handler.php:38] URL Prepared:http://github.local/category/uncategorized/feed/?simply_static_page=60
+[2024-10-14 19:13:33] [class-ss-url-fetcher.php:251] Fetching URL: http://github.local/category/uncategorized/feed/?simply_static_page=60
+[2024-10-14 19:14:03] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-10-14 19:14:03] [class-ss-url-fetcher.php:106] We encountered an error when fetching: cURL error 28: Operation timed out after 30003 milliseconds with 0 bytes received
+[2024-10-14 19:14:03] [class-ss-url-fetcher.php:107] object(WP_Error)#939 (3) {  ["errors"]=>  array(1) {    ["http_request_failed"]=>    array(1) {      [0]=>      string(81) "cURL error 28: Operation timed out after 30003 milliseconds with 0 bytes received"    }  }  ["error_data"]=>  array(0) {  }  ["additional_data":protected]=>  array(0) {  }}
+[2024-10-14 19:14:03] [class-ss-fetch-urls-task.php:72] URL: http://github.local/wp-json/wp/v2/categories/1
+[2024-10-14 19:14:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 30
+[2024-10-14 19:14:03] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-14 19:14:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/670d6d7be84e3-ZbEb4l.tmp
+[2024-10-14 19:14:03] [class-ss-page-handler.php:38] URL Prepared:http://github.local/wp-json/wp/v2/categories/1?simply_static_page=61
+[2024-10-14 19:14:03] [class-ss-url-fetcher.php:251] Fetching URL: http://github.local/wp-json/wp/v2/categories/1?simply_static_page=61
+[2024-10-14 19:14:04] [class-ss-url-fetcher.php:103] Filesize: 591 bytes
+[2024-10-14 19:14:04] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-10-14 19:14:04] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/wp/v2/categories/1\index.html
+[2024-10-14 19:14:04] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/670d6d7be84e3-ZbEb4l.tmp to C:\Users\ayans\Local Sites\github\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1728933005/wp-json/wp/v2/categories/1\index.html
+[2024-10-14 19:14:04] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-14 19:14:04] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-14 19:14:04] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-14 19:14:04] [class-ss-page.php:119] Checking Content Identical:b0fc3225e304829ed1ab83392b904ac7861355e1===. Value: FALSE
+[2024-10-14 19:14:04] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 20 of 30 pages/files
+[2024-10-14 19:14:04] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-10-14 19:14:15] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-14 19:14:15] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-14 19:14:15] [class-ss-fetch-urls-task.php:69] Total pages: 30; Pages remaining: 0
+[2024-10-14 19:14:15] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 30 of 30 pages/files
+[2024-10-14 19:14:15] [class-ss-archive-creation-job.php:175] We've found our next task: generate_404
+[2024-10-14 19:14:15] [class-ss-archive-creation-job.php:136] Current task: generate_404
+[2024-10-14 19:14:15] [class-ss-archive-creation-job.php:153] Performing task: generate_404
+[2024-10-14 19:14:15] [class-ss-task.php:44] Status message: [generate_404] Generating 404 Page.
+[2024-10-14 19:14:15] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/670d6d87b49e5-WxpYYQ.tmp
+[2024-10-14 19:14:15] [class-ss-page-handler.php:38] URL Prepared:http://github.local/1728933256?simply_static_page=0
+[2024-10-14 19:14:15] [class-ss-url-fetcher.php:251] Fetching URL: http://github.local/1728933256?simply_static_page=0
+[2024-10-14 19:14:16] [class-ss-url-fetcher.php:103] Filesize: 56317 bytes
+[2024-10-14 19:14:16] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-10-14 19:14:16] [class-ss-url-fetcher.php:233] New filename for static page: 404/index.html
+[2024-10-14 19:14:16] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/670d6d87b49e5-WxpYYQ.tmp to C:\Users\ayans\Local Sites\github\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1728933005\404/index.html
+[2024-10-14 19:14:16] [class-ss-generate-404-task.php:119] Replacing URLs in the static file
+[2024-10-14 19:14:17] [class-ss-generate-404-task.php:125] We're saving this URL; keeping the static file
+[2024-10-14 19:14:18] [class-ss-page.php:119] Checking Content Identical:988a4ece39f2da47bd43e2ecd3ae80545fde0670===. Value: FALSE
+[2024-10-14 19:14:18] [class-ss-task.php:44] Status message: [generate_404] 404 Page generated
+[2024-10-14 19:14:18] [class-ss-archive-creation-job.php:175] We've found our next task: create_zip_archive
+[2024-10-14 19:14:18] [class-ss-archive-creation-job.php:136] Current task: create_zip_archive
+[2024-10-14 19:14:18] [class-ss-archive-creation-job.php:153] Performing task: create_zip_archive
+[2024-10-14 19:14:18] [class-ss-create-zip-archive.php:71] Fetching list of files to include in zip
+[2024-10-14 19:14:18] [class-ss-create-zip-archive.php:80] Creating zip archive
+[2024-10-14 19:14:18] [class-ss-task.php:44] Status message: [create_zip_archive] ZIP archive created:  <a href="http://github.local/wp-content/uploads/simply-static/temp-files/simply-static-1-1728933005.zip">Click here to download</a>
+[2024-10-14 19:14:18] [class-ss-archive-creation-job.php:175] We've found our next task: wrapup
+[2024-10-14 19:14:18] [class-ss-archive-creation-job.php:136] Current task: wrapup
+[2024-10-14 19:14:18] [class-ss-archive-creation-job.php:153] Performing task: wrapup
+[2024-10-14 19:14:18] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2024-10-14 19:14:18] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2024-10-14 19:14:18] [class-ss-archive-creation-job.php:170] This task is done and there are no more tasks, time to complete the job
+[2024-10-14 19:14:18] [class-ss-archive-creation-job.php:197] Completing the job
+[2024-10-14 19:14:18] [class-ss-archive-creation-job.php:324] Status message: [done] Done! Finished in 00:04:13
